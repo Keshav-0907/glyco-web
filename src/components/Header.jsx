@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import image1 from '../assets/logo.png'
 
 const Header = () => {
   const user = false;
   return (
-    <div className="flex justify-between px-10 py-3 bg-gray-200 shadow-lg">
+    <div className="flex justify-between px-10 py-2 bg-gray-100 shadow-md">
       <div className="text-xl font-semibold items-center flex">
-        <Link to="/">Glyco AI</Link>
+        <Link to="/"><img className="w-[80px]" src={image1} alt="" /></Link>
       </div>
 
       <div>
@@ -23,8 +24,8 @@ const Header = () => {
           </div>
         ) : (
           <div>
-            <button className="mr-4">
-              <Link to="/login" className="">
+            <button className="mr-4 mt-3">
+              <Link to="/login" className=" ">
                 Login
               </Link>
             </button>

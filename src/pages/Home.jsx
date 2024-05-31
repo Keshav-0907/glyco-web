@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-between h-[90vh] ">
+    <div className="flex flex-col justify-between h-[85vh] ">
       <div className="">
         <h1 className="text-2xl font-bold text-center mt-10">
           Welcome to Glyco AI
@@ -12,7 +12,7 @@ const Home = () => {
 
 
       <div className="px-10">
-        <input className="w-full p-2 border border-gray-300 bg-gray-100 rounded mt-5" type="text" placeholder="Ask me someting......." />
+        <input className="w-full p-2 border border-gray-300 bg-gray-100 rounded mt-100" type="text" placeholder="Ask me someting......." />
         
       </div>
     </div>
