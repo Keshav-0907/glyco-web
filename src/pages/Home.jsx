@@ -11,9 +11,9 @@ const Home = () => {
       </div>
 
 
-      <div className="px-10">
+      <div className="px-10 flex gap-3">
         <input className="w-full p-2 border border-gray-300 bg-gray-100 rounded mt-100" type="text" placeholder="Ask me someting......." />
-        
+        <button className="bg-black px-5 rounded-md text-white"> Search </button>
       </div>
     </div>
   );
